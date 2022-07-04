@@ -1,0 +1,40 @@
+/*importación de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,800;1,900&display=swap');
+
+html{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: transparent;
+  font-size: 1em;
+  background-image: url("./imagenes/vj-radio-microphone.png");
+}
+
+header{
+    background: linear-gradient(to top,rgb(6, 146, 151),rgb(255, 255, 255),rgb(6, 146, 151));
+}
+
+footer{
+    background: linear-gradient(to top,rgb(6, 146, 151),rgb(255, 255, 255),rgb(6, 146, 151));
+}
+#logo{
+    border-radius: 30%;
+}
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    #micro{
+        width: 20rem;
+        height: 30rem;
+    }
+    #clima{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+    #micro{
+        display:none;
+    }
+    #clima{
+        display: none;
+    }
+}
+
